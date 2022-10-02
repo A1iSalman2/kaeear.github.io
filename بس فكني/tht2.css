@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 0 48px;
+    
+}
+.logo{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.logoimg{
+    width: 25px;
+    height: auto;
+}
+.waheed{
+    display: inline-block;
+    padding: 8px 18px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: black;
+    border-radius: 40px;
+}
+.heading{
+    font-size: 67px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: bolder;
+    line-height: 1.4;
+    margin-top: 22px
+}
+.smallheading{
+    font-family: 'Rambla', sans-serif;
+    padding-top: 22px;
+    color:#808080;
+    line-height: 2;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.herosec{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img1{
+    height:100vh;
+    width:100% ;
+    background-image: url(../بس\ فكني/bb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    height:100vh;
+    width:100% ;
+    background-image: url(../بس\ فكني/salemm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title h2{
+    color:black;
+    font-size: 75px;
+    width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.btn3{
+    border: 1px solid orange;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: none;
+    cursor: pointer;
+}
+
+
+main{
+    background-color: white;
+    padding: 100px 0;
+}
+
+.box ul li img{
+    height: 20px;
+    width: 20px;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 13px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin: 20px 20px;
+
+
+}
+.box ul{
+    display: flex;
+    list-style-type: none;
+    padding: 15px 15px;
+    justify-content: center;
+}
+.main1{
+    max-width: 950px;
+    margin: 20px auto 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.img12{
+    min-width:250px;
+
+ 
+}
+.img12 img{
+    width: 100%;
+}
+.row{
+    max-width:930px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 95px;
+}
+.cols img{
+    width: 95%;
+}
+
+.categoh{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #555;
+}
+.categoh::after{
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.offer{
+    max-width: 1070px;
+    margin: 40px auto 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.scont img{
+    width: 100%;
+    padding: 100px;
+  
+    
+}
+.scont2 p {
+    line-height: 60px;
+
+}
+.scont2 h1{
+    line-height: 65px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    opacity: 90%;
+
+}
+
+.offer2{
+    width: 100%;
+    background: radial-gradient(#fff,#ffd6d6);
+    
+}
+.waheed2{
+    display: inline-block;
+    padding: 8px 18px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color:#ff523b;
+    border-radius: 40px;
+    margin-top: 35px;
+}
+small{
+    color: #555;
+    font-weight: 300;
+}
+.scont2 p{
+    color: #555;
+    font-weight: 400;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.fcont{
+    margin:auto;
+    max-width: 1170px;
+   
+}
+ul{
+    list-style: none;
+}
+.row7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footercol h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.footercol h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    background-color: #e91e63;
+    width: 50px;
+}
+.footercol ul li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color:#f8f8f8;
+    opacity: 40%;
+    font-size: 15px;
+}
+.herosec h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-top: 50%;
+    padding-right: 2%;
+    font-weight: 300;
+}
+.imgq{
+    display: none;
+}
+@media only screen and (max-width:850px){
+    .imgq{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .waheed{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    .herosec{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .img1{
+        width:100% ;
+        background-image: url(../بس\ فكني/bb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+}
